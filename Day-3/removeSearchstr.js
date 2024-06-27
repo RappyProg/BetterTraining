@@ -6,8 +6,8 @@ let remove = ""
 
 console.log(str.replace(search, remove));
 
-function removeStr(str, search, blank) {
-    return str.replace(search, blank)
-}
+//function removeStr(str, search, blank) {
+//    return str.replace(search, blank)
+//}
 
-console.log(removeStr(str, search, remove));
+//console.log(removeStr(str, search, remove));
