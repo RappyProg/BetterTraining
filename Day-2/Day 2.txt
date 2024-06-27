@@ -1,0 +1,21 @@
+Day 2 - Purwadhika
+Conditional statements
+
+If (as usual)
+else (as usual)
+else if (as usual)
+
+switch case (it's like if but only equal something)
+
+logical operator (&& || !)
+
+ternary operator (make it faster)
+example: console.log(x == true ? "Yes" : "No")
+ex (if elseif): console.log(x == true ? "Yes" : x == false ? "No" : "Why")
+
+loop statement
+FOR loop --> for(i=x;i<n;i++){}
+WHILE loop --> while(true){}
+DO WHILE loop
+BREAK
+Continue
