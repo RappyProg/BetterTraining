@@ -1,0 +1,39 @@
+Purwadhika FS Web Dev
+Day 1 - June 24th 2024
+Intro to Programming
+
+What --> process of createing set of instruction to tell computer to do something
+
+programming lingo --> a language, vocab and grammar for instructing computer to perform specific task
+
+problem solving is the mindset
+1. seek solution
+2. try another solution
+3. if doesnt work, back to step 2
+
+why learn programming?
+- improve problem solving and logic thinkink
+- grow creativity
+- level up career
+- earnings
+- technology is here
+
+intro to algorithm
+- step by step procedures in a set. set of rules to solve problems
+- understanding algorithm needs deep understanding in logic and problem solving
+
+js
+- easy to learn
+- everything uses this nowadays
+- fast and versatile
+- interoperability
+
+Increment decrement
+
+prefix postfix ++
+prefix done first
+postfix done later
+
+comparison operators (== equal, === equal val and dtype, != not eq, !==not eq val and dtype, >, <, >=, <=)
+
+pseudocode --> make a simple code notes, but this is not runable
