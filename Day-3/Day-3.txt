@@ -1,0 +1,19 @@
+Day 3 - Purwadhika
+Git,Github
+
+Step1 -- register github (note the username and email)
+Step2 -- on cmd. `git config --list` . Then `git config --global user.name "[username]"` and `git config --global user.email "[email]"`
+Step3 -- on github. Create repo. Then copy the git remote add origin https://github.com/RappyProg/Training.git
+Step4 -- on vscode/cmd/whereveryou'recoding. cd to folder you want to use for your repo.
+Step5 -- git init & copy the git remote earlier
+Step6 -- "git remote -v" to check whether it's connected or not
+Step7 -- "git add ." to relocate file from working to staging area
+Step8 -- "git commit -m "first innit"" to commit the file into repository
+
+now for file creation and branch changing
+
+Step1 -- imagine you got a file you wanna push
+Step2 -- git add . --> git commit -m "message" --> git push origin 'branch name'
+Step3 -- make new branch to simulate like day differences with 'git checkout -b *new branch name*
+Step4 -- make new files for example
+Step5 -- repeat from step 1. and that's how you keep updating your repo.

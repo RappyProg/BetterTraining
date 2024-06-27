@@ -1,0 +1,27 @@
+Write a code to display multiplication table of a given integer.
+Example number 9
+output should be:
+- 9 x 1
+- 9 x 2
+....
+- 9 x 10
+
+Hint:
+1. What is multiplication table?
+2. Example as above
+3. Convert 9 or any num as constant variable because it doesnt change and set the limit to 10 because multiplication table typically starts from 1 and end on 10
+4. defined loops rule as for(i=1;i<=limit;i++){}
+
+Solving:
+1. Define num and limit. In this case:
+const num = 9
+const limit = 10
+2. using for loop using above rules for(i=1;i<=limit;i++){}
+3. inside the for loop we can define put console.log to print every iteration, resembling a multiplication table. with:
+for(i=1;i<=limit;i++){
+    console.log(`${num} x ${i}`)
+}
+4. Whole output should be in this format:
+9 x i
+5. We can close the loop with:
+END FOR
