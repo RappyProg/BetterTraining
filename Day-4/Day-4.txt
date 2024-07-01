@@ -1,0 +1,35 @@
+Day 4 - Purwadhika
+Array and Function
+
+how to make array
+- arr = []
+- arr = new Array()
+
+methods:
+- push --> add value at the back
+- pop --> remove value from the back
+seems that it uses last in first out (LIFO) mechanic
+- shift --> remove value from front
+- unshift --> add value from front
+- splice --> can be used to remove and add something. but mostly remove. 
+If using splice (x, 0, y, z) you will add y and z after the index x. 
+Splice(x) to remove everything from index x onwards.
+- sort((a,b) => a-b) ascending, b-a descending. // the => is basically ternary function
+just sort() will sort it lexicographically like 101, 2, 304, 4000, so just be careful, but this is nice to know
+- reverse --> reverse the index, back to front
+- forEach & map --> for looping. The difference is that map can produce new array.
+- reduce --> for arithmetic operation so it's like x.reduce((a,b) => a +-*/**% b) 
+
+function --> packaging rules, or any sort of coding
+can be done in 2 ways
+- function(...){}
+- x = function(...){}
+
+function scope --> variable that is made inside a function can only be used by that function, even var.
+function sum(a, b)
+a and b are called parameters
+if you put a = 0 --> this became default parameter
+
+function sum(a,b,...more)
+...more is a rest paremeter so it can catch whatever stray arguments your wife puts in
+then you can put console.log(...more) to show it on output. 
